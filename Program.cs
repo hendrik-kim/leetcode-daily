@@ -1,4 +1,5 @@
 ﻿using leetcode;
+using leetcode_daily;
 
 // var palindromeNumber = new PalindromeNumber();
 // Console.WriteLine(palindromeNumber.IsPalindromeNumber(-1112111));
@@ -16,5 +17,6 @@
 // CountOddsSolution solution = new CountOddsSolution();
 // Console.WriteLine(solution.CountOdds(0, 5));
 
-var solution = new UniqueOccurrencesSolution();
-Console.WriteLine(solution.UniqueOccurrences(new int[] { 1, 2, 2, 1, 1, 3 }));
+var solution = new RunningSumSolution();
+var result = solution.RunningSum(new int[] { 1, 2, 3, 4 });
+
