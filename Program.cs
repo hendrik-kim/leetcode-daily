@@ -17,6 +17,8 @@ using leetcode_daily;
 // CountOddsSolution solution = new CountOddsSolution();
 // Console.WriteLine(solution.CountOdds(0, 5));
 
-var solution = new RunningSumSolution();
-var result = solution.RunningSum(new int[] { 1, 2, 3, 4 });
+// var solution = new RunningSumSolution();
+// var result = solution.RunningSum(new int[] { 1, 2, 3, 4 });
 
+var solution = new ClimbStairsSolution();
+Console.WriteLine(solution.ClimbStairs(3));
