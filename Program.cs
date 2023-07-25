@@ -23,5 +23,9 @@ using leetcode_daily;
 // var solution = new ClimbStairsSolution();
 // Console.WriteLine(solution.ClimbStairs(3));
 
+// BinarySearch binarySearch = new BinarySearch();
+// binarySearch.Search(new int[] { -1, 0, 3, 5, 9, 12 }, 2);
+
 var solution = new PascalsTriangle();
 solution.Generate(5);
+
