@@ -20,5 +20,8 @@ using leetcode_daily;
 // var solution = new RunningSumSolution();
 // var result = solution.RunningSum(new int[] { 1, 2, 3, 4 });
 
-var solution = new ClimbStairsSolution();
-Console.WriteLine(solution.ClimbStairs(3));
+// var solution = new ClimbStairsSolution();
+// Console.WriteLine(solution.ClimbStairs(3));
+
+var solution = new PascalsTriangle();
+solution.Generate(5);
