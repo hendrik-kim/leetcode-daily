@@ -29,11 +29,8 @@ using leetcode_daily;
 var solution = new CheckStraightLineSolution();
 int[][] jaggedArray = new int[][]
 {
-    new int[] {1,2},
-    new int[] {2,3},
-    new int[] {3,4},
-    new int[] {4,5},
-    new int[] {5,6},
-    new int[] {6,7}
+    new int[] {0,0},
+    new int[] {0,1},
+    new int[] {0,-1}
 };
 solution.CheckStraightLine(jaggedArray);
