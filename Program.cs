@@ -26,11 +26,14 @@ using leetcode_daily;
 // var solution = new ClimbStairsSolution();
 // Console.WriteLine(solution.ClimbStairs(3));
 
-var solution = new CheckStraightLineSolution();
-int[][] jaggedArray = new int[][]
-{
-    new int[] {0,0},
-    new int[] {0,1},
-    new int[] {0,-1}
-};
-solution.CheckStraightLine(jaggedArray);
+// var solution = new CheckStraightLineSolution();
+// int[][] jaggedArray = new int[][]
+// {
+//     new int[] {0,0},
+//     new int[] {0,1},
+//     new int[] {0,-1}
+// };
+// solution.CheckStraightLine(jaggedArray);
+
+var solution = new RemoveDuplicatesSolution();
+solution.RemoveDuplicates(new int[] { 1, 1, 2 });
