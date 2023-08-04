@@ -20,9 +20,6 @@ using leetcode_daily;
 // var solution = new RunningSumSolution();
 // var result = solution.RunningSum(new int[] { 1, 2, 3, 4 });
 
-// var solution = new ClimbStairsSolution();
-// Console.WriteLine(solution.ClimbStairs(3));
-
 // BinarySearch binarySearch = new BinarySearch();
 // binarySearch.Search(new int[] { -1, 0, 3, 5, 9, 12 }, 2);
 
