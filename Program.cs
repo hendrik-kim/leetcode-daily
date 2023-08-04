@@ -26,6 +26,8 @@ using leetcode_daily;
 // BinarySearch binarySearch = new BinarySearch();
 // binarySearch.Search(new int[] { -1, 0, 3, 5, 9, 12 }, 2);
 
-var solution = new PascalsTriangle();
-solution.Generate(5);
+// var solution = new PascalsTriangle();
+// solution.Generate(5);
 
+var solution = new MoveZeroesSolution();
+solution.MoveZeroes(new int[] {1,0,0,1 });
