@@ -26,5 +26,7 @@ using leetcode_daily;
 // var solution = new PascalsTriangle();
 // solution.Generate(5);
 
-var solution = new MoveZeroesSolution();
-solution.MoveZeroes(new int[] {1,0,0,1 });
+// var solution = new MoveZeroesSolution();
+// solution.MoveZeroes(new int[] {1,0,0,1 });
+
+var solution = new LongestPalindromeSolution();
